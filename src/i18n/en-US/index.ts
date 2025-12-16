@@ -4,4 +4,8 @@
 export default {
   failed: 'Action failed',
   success: 'Action was successful',
+  login : {
+    login : "Login",
+    welcome : "Welcome {name}"
+  }
 };

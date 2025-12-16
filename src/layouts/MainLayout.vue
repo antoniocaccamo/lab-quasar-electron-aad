@@ -12,7 +12,7 @@
 
           <div>
               <span class="q-electron-title" v-if="! accountStore.hasAccount"> <q-btn @click="login" icon="login">Login</q-btn></span>
-              <span class="q-electron-title" v-if="accountStore.hasAccount">{{ accountStore.account?.name }} </span>
+              <span class="q-electron-title" v-if="accountStore.hasAccount">  {{ $t('login.welcome' , {  name : accountStore.account?.username }) }} </span>
           </div>
 
           <q-space />
